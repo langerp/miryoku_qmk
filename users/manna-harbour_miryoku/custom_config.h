@@ -26,6 +26,8 @@ KC_A,      KC_S,      KC_D,      KC_F,      KC_G,              KC_H,            
 LT(U_BUTTON,KC_Z), ALGR_T(KC_X),      KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH),\
 U_NP,              U_NP,              KC_ESC,KC_SPC,  KC_TAB,KC_ENT,  KC_BSPC, KC_DEL,  U_NP,              U_NP
 
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
