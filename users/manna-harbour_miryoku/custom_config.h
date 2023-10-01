@@ -23,7 +23,7 @@ KC_LSFT,  K20,  K21,  K22,  K23,  K24,                K25,  K26,  K27,  K28,  K2
 #define MIRYOKU_LAYER_GAME \
 KC_Q,              KC_W,              KC_E,              KC_R,              KC_T,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              \
 KC_A,      KC_S,      KC_D,      KC_F,      KC_G,              KC_H,              KC_J,      KC_K,     KC_L,     KC_QUOT,   \
-LT(U_BUTTON,KC_Z), ALGR_T(KC_X),      KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH),\
+KC_Z, ALGR_T(KC_X),      KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH),\
 U_NP,              U_NP,              KC_ESC,KC_SPC,  KC_TAB,KC_ENT,  KC_BSPC, KC_DEL,  U_NP,              U_NP
 
 #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
