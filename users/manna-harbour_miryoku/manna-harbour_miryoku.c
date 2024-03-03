@@ -7,6 +7,26 @@
 
 #include "manna-harbour_miryoku.h"
 
+enum custom_keycodes {
+    NUMLOCKCAST,
+};
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+    case NUMLOCKCAST:
+        if (record->event.pressed) {
+            SEND_STRING(SS_DOWN(X_NUM));
+            SEND_STRING(SS_DOWN(X_P1));
+            SEND_STRING(SS_DOWN(X_P2));
+            SEND_STRING(SS_UP(X_NUM));
+            SEND_STRING(SS_UP(X_P1));
+            SEND_STRING(SS_UP(X_P2));
+        }
+        break;
+    }
+    return true;
+};
+
 
 // Additional Features double tap guard
 
